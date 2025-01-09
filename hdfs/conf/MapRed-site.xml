@@ -1,0 +1,18 @@
+<!-- Doc: https://hadoop.apache.org/docs/stable/hadoop-mapreduce-client/hadoop-mapreduce-client-core/mapred-default.xml -->
+<?xml version="1.0"?>
+<configuration><property><name>mapreduce.framework.name</name><value>yarn</v
+alue></property><property><name>mapred.job.tracker</name><value>master:54311
+</value></property><property><name>yarn.app.mapreduce.am.env</name><value>HA
+DOOP_MAPRED_HOME=${HADOOP_HOME}</value></property><property><name>mapreduce.
+map.env</name><value>HADOOP_MAPRED_HOME=${HADOOP_HOME}</value></property><pr
+operty><name>mapreduce.reduce.env</name><value>HADOOP_MAPRED_HOME=${HADOOP_H
+OME}</value></property><property><name>mapred.child.java.opts</name><value>-
+Xmx4096m</value></property><property><name>mapreduce.map.memory.mb</name><va
+lue>4096</value></property><property><name>mapreduce.reduce.memory.mb</name>
+<value>4096</value></property><property><name>mapreduce.map.java.opts</name>
+<value>-Xmx3072m</value></property><property><name>mapreduce.reduce.java.opt
+s</name><value>-Xmx3072m</value></property><property><name>yarn.nodemanager.
+bind-host</name><value>0.0.0.0</value></property><property><name>mapred.map.
+output.compress.codec</name><value>org.apache.hadoop.io.compress.SnappyCodec
+</value></property><property><name>mapreduce.map.output.compress</name><valu
+e>true</value></property></configuration>

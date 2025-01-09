@@ -1,0 +1,12 @@
+<!-- Doc:  https://hadoop.apache.org/docs/r2.4.1/hadoop-project-dist/hadoop-hdfs/hdfs-default.xml-->
+<?xml version="1.0"?>
+<configuration><property><name>dfs.replication</name><value>3</value></prope
+rty><property><name>dfs.namenode.name.dir</name><value>file:///hadoop/dfs/na
+me</value></property><property><name>dfs.datanode.data.dir</name><value>/dat
+a/hadoop/dfs/data</value></property><property><name>dfs.blocksize</name><val
+ue>64m</value></property><property><name>todo</name><value>todo</value></pro
+perty><property><name>dfs.permissions.enabled</name><value>false</value></pr
+operty><property><name>dfs.namenode.datanode.registration.ip-hostname-check<
+/name><value>false</value></property><property><name>dfs.namenode.rpc-bind-h
+ost</name><value>0.0.0.0</value></property><property><name>dfs.namenode.serv
+icerpc-bind-host</name><value>0.0.0.0</value></property></configuration>
