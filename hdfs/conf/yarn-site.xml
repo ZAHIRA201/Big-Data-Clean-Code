@@ -1,5 +1,6 @@
 <!-- Doc: https://hadoop.apache.org/docs/r3.1.0/hadoop-yarn/hadoop-yarn-common/yarn-default.xml -->
 <?xml version="1.0"?>
+
 <configuration><property><name>yarn.nodemanager.aux-services</name><value>ma
 preduce_shuffle</value></property><property><name>yarn.nodemanager.aux-servi
 ces.mapreduce.shuffle.class</name><value>org.apache.hadoop.mapred.ShuffleHan
