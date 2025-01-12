@@ -1,0 +1,19 @@
+<!-- Doc: https://hadoop.apache.org/docs/r3.1.0/hadoop-yarn/hadoop-yarn-common/yarn-default.xml -->
+<?xml version="1.0"?>
+<configuration><property><name>yarn.nodemanager.aux-services</name><value>ma
+preduce_shuffle</value></property><property><name>yarn.nodemanager.aux-servi
+ces.mapreduce.shuffle.class</name><value>org.apache.hadoop.mapred.ShuffleHan
+dler</value></property><property><name>yarn.nodemanager.pmem-check-enabled</
+name><value>false</value></property><property><name>yarn.nodemanager.vmem-ch
+eck-enabled</name><value>false</value></property><property><name>yarn.resour
+cemanager.resource-tracker.address</name><value>master:8025</value></propert
+y><property><name>yarn.resourcemanager.scheduler.address</name><value>master
+:8030</value></property><property><name>yarn.resourcemanager.address</name><
+value>master:8050</value></property><property><name>yarn.nodemanager.resourc
+e.memory-mb</name><value>4096</value></property><property><name>yarn.nodeman
+ager.resource.cpu-vcores</name><value>2</value></property><property><name>ya
+rn.scheduler.maximum-allocation-vcores</name><value>4</value></property><pro
+perty><name>yarn.nodemanager.disk-health-checker.max-disk-utilization-per-di
+sk-percentage</name><value>98</value></property><property><name>yarn.schedul
+er.maximum-allocation-mb</name><value>8192</value></property></configuration
+>
