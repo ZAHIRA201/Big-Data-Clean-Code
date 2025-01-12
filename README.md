@@ -31,4 +31,4 @@ This project's main goal is to model and implement big data processes. The proje
     - Compare those tools basing on the data gathered.
     - Write conclusions
 
-# Ongoing
+## Ongoing ...
