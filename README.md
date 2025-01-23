@@ -61,16 +61,16 @@ This version includes optimized C-based implementations for better performance.
 
 ## Workflows and Results
 ### Workflow 1
-![Workflow 1](./readme-res/p1-workflow.png "Workflow 1 Description")
+![Workflow 1](./egress/p1-workflow.png "Workflow 1 Description")
 
 ### Result 1
-![Result 1](./readme-res/p1-result.png?raw=true "Result 1 Description")
+![Result 1](./egress/p1-result.png?raw=true "Result 1 Description")
 
 ### Workflow 2
-![Workflow 2](./readme-res/p2-workflow.png?raw=true "Workflow 2 Description")
+![Workflow 2](./egress/p2-workflow.png?raw=true "Workflow 2 Description")
 
 ### Result 2
-![Result 2](./readme-res/p2-result-top10.png?raw=true "Result 2 Top 10")
+![Result 2](./egress/p2-result-top10.png?raw=true "Result 2 Top 10")
 
 ---
 
