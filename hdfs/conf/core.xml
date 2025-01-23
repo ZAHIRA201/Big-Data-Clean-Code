@@ -1,6 +1,5 @@
 <!-- Doc: https://hadoop.apache.org/docs/r2.7.4/hadoop-project-dist/hadoop-common/core-default.xml -->
 <?xml version="1.0"?>
-
 <configuration><property><name>fs.defaultFS</name><value>hdfs://master:9000<
 /value></property><property><name>hadoop.tmp.dir</name><value>/data/hadoop/t
 mp</value></property><property><name>hadoop.proxyuser.hadoop.hosts</name><va
