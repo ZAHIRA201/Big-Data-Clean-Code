@@ -112,4 +112,4 @@ time docker exec -it master spark-submit /usr/local/spark-scripts/tmp_companies_
 
 ---
 
-This README serves as a guide for project workflows, challenges, and best practices. For further information or support, consult the repository or reach out to project maintainers.
+This README serves as a guide for project workflows, challenges, and best practices. For further information or support, consult me.
